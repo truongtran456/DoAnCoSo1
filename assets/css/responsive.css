@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+    html {
+        width: 100%;
+    }
+    #demo {
+        display: none;
+    }
+    header {
+        position: relative;
+        right: 0;
+
+    }
+    .phandoan {
+        flex-direction: column;
+    }
+    .tintuc {
+        display: none;
+    }
+    .camnang-k {
+        flex-direction: column;
+    }
+    .login-login {
+        display: none;
+    }
+    .photo-title2 {
+        line-height: 50px;
+    }
+    .phandoan-khung {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+    }
+    .thong-diep {
+        display: none;
+    }
+    .gioi-thieu {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-text {
+        padding: 0;
+    }
+    .navbar__navbar-item {
+        display: block;
+        
+    }
+    
+}
+@media (min-width: 600px) {
+    .column {
+        width: 50%;
+    }
+    #menu {
+        display: none;
+    }
+}

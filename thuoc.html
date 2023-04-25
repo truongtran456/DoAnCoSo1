@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/base.css" class="">
+<link rel="stylesheet" href="./assets/css/main.css" class="">
+<script src="https://kit.fontawesome.com/78f6db41c4.js" crossorigin="anonymous"></script>
+<style type="text/css">
+    body{   
+         font-family:Arial, Helvetica, sans-serif;   
+        font-size:12px;
+        }
+        .glyphicon {    
+        margin-right:5px;
+        }
+        .thumbnail {    
+        margin-bottom: 20px;    
+        padding: 0px;   
+        -webkit-border-radius: 0px; 
+        -moz-border-radius: 0px;    
+        border-radius: 0px;
+        }
+        .item.list-group-item { 
+        float: none;    
+        width: 100%;    
+        background-color: #fff; 
+        margin-bottom: 10px;
+         
+        }
+        .item.list-group-item:nth-of-type(odd):hover, .item.list-group-item:hover { 
+        background: #428bca;
+        }
+        .item.list-group-item .list-group-image {   
+        margin-right: 10px;
+        }
+        .item.list-group-item .thumbnail {  
+        margin-bottom: 0px;
+        }
+        .item.list-group-item .caption {    
+        padding: 9px 9px 0px 9px;
+        }
+        .item.list-group-item:nth-of-type(odd) { 
+        background: #eeeeee;
+        }
+        .item.list-group-item:before, .item.list-group-item:after { 
+        display: table; content:"";
+        }
+        .item.list-group-item img { 
+        float: left;
+        }
+        .item.list-group-item:after {   
+        clear: both;
+        }
+        .list-group-item-text { 
+        margin: 0 0 11px;
+        }
+        .button {
+        display: inline-block;
+        padding: 8px 2px;
+        border: none;
+        
+    }
+    .lead {
+        font-size:16px;
+    }
+    .container {
+        width: 80%;
+    }
+    .item {
+        width: 20%;
+        text-align: center;
+    }
+        </style>
+    </head>
+    <body>
+
+<header class="header__navbar">
+    <a href="./index.html" class="link-bt"><button class="button" style="margin-left: 30px;   background-color: rgb(28, 248, 102); height:100%;padding:0;        "><i class="fa-solid fa-angles-left"></i><i>Về trang chủ</i></button></a>
+   </header>
+    <div class="container"> 
+        <h3> Sản phẩm nổi bật</h3> 
+        <div class="well well-sm text-right"> <strong>Chọn kiểu hiển thị</strong> 
+         <div class="btn-group"> <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list"> </span>Dạng danh sách</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th"></span>Dạng lưới</a> 
+         </div> 
+        </div> 
+        <div id="products" class="row list-group"> 
+         <div class="  col-xs-12 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="https://file3.qdnd.vn/data/images/0/2021/11/13/vuongthuy/12112021vthuy21.jpg?dpi=150&quality=100&w=870" alt="Sản phẩm 1" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Molnupiravir</h4> 
+            <p class="group inner list-group-item-text"> </p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 250.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="  col-xs-12 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/1/24/veklury-1643002538406587454486.jpg" alt="Sản phẩm 2" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Veklury (remdesivir)</h4> 
+            <p class="group inner list-group-item-text"></p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class=" col-xs-12 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="https://cdnimg.vietnamplus.vn/uploaded/ivpycivo/2022_02_12/bebtelovimabapjef220211_1644623750219_hpmain_16x9_992.jpg" alt="Sản phẩm 3" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Bebtelovimab</h4> 
+            <p class="group inner list-group-item-text"> </p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class=" col-xs-12 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="https://nld.mediacdn.vn/291774122806476800/2022/3/3/paxlovid-16462913715921249534956.jpg" alt="Sản phẩm 4" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Paxlovid</h4> 
+            <p class="group inner list-group-item-text"> </p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        
+        </div>
+       </div>
+       <footer class="footer" style="margin-top: 100px;">
+        <div class="footer-information">
+            <p class="footer-information-text" style="color:#fff; line-height: 1.5; letter-spacing: 1px; display: inline;"> <span style="font-size:1.6rem; font-weight: bold; ">TRUNG TÂM BÁC SĨ COVIDCARE</span> <br>
+                <span style="font-size: 13px;
+                letter-spacing: 1px;" class="footer-text">
+                    Đia chỉ VP : Quận Ngũ Hành Sơn,TP.Đà Nẵng <br>
+                    Phòng Khám:  Quận Ngũ Hành Sơn,TP.Đà Nẵng <br>
+                </span></p>
+
+
+    </footer>
+</body>
+</html>
